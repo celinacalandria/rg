@@ -1,0 +1,35 @@
+/* letras */
+@mixin letraTitulos {    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: $azul;
+}
+
+@mixin letraSubtitulos {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: $azulito;
+}
+
+@mixin letraTextos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* m=0 p=0 */
+@mixin NMP{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* centrado */
+@mixin centrado{
+    display: block;
+    margin: auto;
+}
+
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

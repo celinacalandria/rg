@@ -1,0 +1,614 @@
+/* imports */ /* colores */ /* letras */
+/* m=0 p=0 */
+/* centrado */
+/* mobile */
+@media screen and (max-width: 575px) {
+  /*  BODY */
+  #inicio {
+    margin: 0px;
+    padding: 0px;
+  }
+  /***** INDEX *****/
+  /* NAVBAR */
+  #menu {
+    background-color: #FFDA1F;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 218, 31);
+    background: linear-gradient(180deg, rgb(255, 218, 31) 12%, rgb(255, 255, 255) 91%);
+  }
+  #menu .container-fluid {
+    align-items: center;
+    justify-content: center;
+  }
+  #menu .container-fluid .navbarMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+  }
+  #menu .container-fluid .navbarMobile .navbar-toggler {
+    margin: 0.5rem;
+    color: #1100CC;
+    border-color: #1100CC;
+    border: 3px solid #1100CC;
+  }
+  #menu .container-fluid .navbarMobile .navbar-toggler .fa {
+    color: #1100CC;
+    font-size: 20px;
+    padding: 0.3rem;
+  }
+  #menu .container-fluid .navbarMobile a {
+    margin: 0.5rem;
+  }
+  #menu .container-fluid .navbar-collapse {
+    padding: 0 1.5rem 0.5rem 1rem;
+  }
+  #menu .container-fluid .navbar-collapse .nav-item .dropdown-menu {
+    background-color: #FFEE99;
+    border: none;
+  }
+  #menu .container-fluid .navbar-collapse .nav-item a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #1100CC;
+  }
+  /* MAIN */
+  .mainMobile .mainSubtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainMobile .mainSubtitulo h3 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1.5rem 1rem;
+    color: #1100CC;
+    margin: 0;
+  }
+  .mainMobile .mainProductos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .mainMobile .mainProductos a {
+    text-decoration: none;
+    margin: 0;
+  }
+  .mainMobile .mainProductos a h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    font-size: 1.3rem;
+    color: #080066;
+    font-weight: 800;
+    background-color: #FFDA1F;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  .mainMobile .mainProductos a div {
+    overflow: hidden;
+  }
+  .mainMobile .mainProductos a div img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    transition: all 0.3s;
+  }
+  .mainMobile .mainProductos a div img:hover {
+    /* filter: saturate(1) ; */
+    filter: blur(1.1) opacity(80%) brightness(90%);
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+  /* BUSCADOR */
+  .sectionBuscadorMobile form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #FFDA1F;
+  }
+  .sectionBuscadorMobile form input {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .sectionBuscadorMobile form button {
+    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+  /* SERENA */
+  .sectionSerena {
+    margin: 0px;
+    padding: 0px;
+  }
+  .sectionSerena div {
+    position: relative;
+    width: 100%;
+  }
+  .sectionSerena div img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+  .sectionSerena div h3 {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    color: #EBEBEB;
+    background-color: #1100CC;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.3rem;
+    padding: 0 1rem;
+  }
+  .sectionSerena div .efectoCard {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 70%;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .sectionSerena div .efectoCard a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    border: 1px solid #080066;
+    border-radius: 10px;
+    background-color: #080066;
+    font-size: 1rem;
+    color: #EBEBEB;
+    text-decoration: none;
+  }
+  .sectionSerena div .efectoCard a:hover {
+    background-color: #EBEBEB;
+    color: #080066;
+    border: 1px solid #080066;
+  }
+  .sectionSerena div:hover img {
+    opacity: 0.7;
+  }
+  .sectionSerena div:hover .efectoCard {
+    opacity: 1;
+  }
+  /* SOLUCIONES */
+  .sectionSoluciones div {
+    background-color: #FFDA1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+  }
+  .sectionSoluciones div p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    color: #080066;
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+  }
+  .sectionSoluciones div a {
+    border: 1px solid #05003D;
+    border-radius: 10rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    color: #EBEBEB;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #05003D;
+  }
+  .sectionSoluciones div a:hover {
+    color: #05003D;
+    background-color: #EBEBEB;
+  }
+  /* SERVICIOS TERMINADOS */
+  .sectionServiciosTerminados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 1.5rem 0;
+    background-color: #FFDA1F;
+  }
+  .sectionServiciosTerminados .verMas {
+    background-color: #FFDA1F;
+  }
+  .sectionServiciosTerminados .verMas a {
+    text-decoration: none;
+    text-align: center;
+    color: #1100CC;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .sectionServiciosTerminados .verMas a:hover {
+    color: #080066;
+  }
+  /* SERVICIOS OFRECIDOS */
+  .sectionServiciosOfrecidos div {
+    padding: 2rem 0;
+    background-color: #1100CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sectionServiciosOfrecidos div p {
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    color: #FFDD33;
+    padding: 0.3rem 1rem;
+  }
+  .sectionServiciosOfrecidos div a {
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    color: #FFDA1F;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+  }
+  .sectionServiciosOfrecidos div a:hover {
+    color: #EBEBEB;
+  }
+  /* ANTIGUEDAD */
+  .sectionAntiguedad div {
+    background-color: #05003D;
+    padding: 1.5rem;
+  }
+  .sectionAntiguedad div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    color: #EBEBEB;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+  }
+  /* MARCAS */
+  .sectionMarcas {
+    background-color: #FFDA1F;
+  }
+  .sectionMarcas div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1.5rem 0;
+  }
+  .sectionMarcas div img {
+    width: 40%;
+    height: auto;
+    padding: 1rem;
+  }
+  /* PRODUCTOS VARIOS */
+  .sectionProductosVarios {
+    background-color: #080066;
+  }
+  .sectionProductosVarios .carousel {
+    padding: 0 0 2rem 0;
+    background-color: #FFDA1F;
+  }
+  .sectionProductosVarios .carousel .carousel-inner .carousel-item {
+    height: 5rem;
+    background-color: #080066;
+    padding: 2% 0;
+    border: 1px solid #080066;
+  }
+  .sectionProductosVarios .carousel .carousel-inner .carousel-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFDD33;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0.5rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-align: center;
+  }
+  /* UBICACION */
+  .sectionUbicacion div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFDA1F;
+  }
+  .sectionUbicacion div a {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #05003D;
+    padding: 0 0 0.5rem 0;
+  }
+  .sectionUbicacion div a:hover {
+    color: #1100CC;
+  }
+  .sectionUbicacion div a img {
+    padding-top: 0.5rem;
+    width: 100%;
+    height: auto;
+  }
+  /* FOOTER UBICACION */
+  .footerUbicacion {
+    background-color: #FFDA1F;
+  }
+  .footerUbicacion div {
+    background-color: #0E00A3;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footerUbicacion div a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFDD33;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .footerUbicacion div a:hover {
+    color: #EBEBEB;
+  }
+  /* FOOTER */
+  .footer {
+    background-color: #FFDA1F;
+    padding: 1.5rem 0;
+  }
+  .footer .divTelefonos {
+    background-color: #0E00A3;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer .divTelefonos i {
+    color: #FFDD33;
+    font-weight: 200;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+  }
+  .footer .divTelefonos a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFDD33;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer .divTelefonos a:hover {
+    color: #EBEBEB;
+  }
+  .footer .divRedes {
+    background-color: #0E00A3;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer .divRedes i {
+    color: #FFDD33;
+    font-weight: 200;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+  }
+  .footer .divRedes p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFDD33;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+  }
+  .footer .divRedes a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFDD33;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer .divRedes a:hover {
+    color: #EBEBEB;
+  }
+  .footer .divLogo {
+    background-color: #FFDA1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .divLogo img {
+    width: 10rem;
+    height: auto;
+  }
+  /***** PAGINAS PRODUCTOS *****/
+  /* MAIN */
+  .mainMobilePags .mainSubtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainMobilePags .mainSubtitulo h3 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    color: #1100CC;
+    margin: 0;
+  }
+  .mainMobilePags .mainProductos h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    font-size: 1.5rem;
+    color: #080066;
+    font-weight: 800;
+    background-color: #FFFFFF;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    margin: 0;
+  }
+  /* CATEGORIAS LISTA */
+  .sectionCategoriasLista div ul {
+    padding: 1rem 3.5rem;
+    margin: 0;
+  }
+  .sectionCategoriasLista div ul li {
+    padding: 0.25rem 0;
+  }
+  .sectionCategoriasLista div ul li a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    font-size: 1rem;
+    color: #1100CC;
+    font-weight: 500;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  /* CATEGORIAS */
+  .sectionCategorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sectionCategorias div {
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+  }
+  .sectionCategorias div h4 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    color: #1100CC;
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  .sectionCategorias div .categoriaItem {
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  .sectionCategorias div .categoriaItem h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    color: #0E00A3;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  .sectionCategorias div .categoriaItem img {
+    width: 80%;
+    height: auto;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  .sectionCategorias div .categoriaItem p {
+    background-color: #FFDA1F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  /* BUSCADOR */
+  .sectionBuscadorMobilePaginas form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem 1.5rem 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #FFFFFF;
+  }
+  .sectionBuscadorMobilePaginas form input {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .sectionBuscadorMobilePaginas form button {
+    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+  /* REPUESTOS */
+  .sectionRepuestos div {
+    background-color: #05003D;
+    padding: 1.5rem;
+  }
+  .sectionRepuestos div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    color: #EBEBEB;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+  }
+}
+/* generales */
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=estilo.css.map */
