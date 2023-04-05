@@ -555,6 +555,7 @@
     font-size: 1.3rem;
     margin: 0;
     padding: 0.5rem 0;
+    text-transform: uppercase;
   }
   .sectionCategorias div .categoriaItem img {
     width: 80%;
