@@ -11,7 +11,7 @@
     <meta name="author" content="celina calandria">
     <meta name="copyright" content="celina calandria">
 
-    <title>Materiales / RUBAL-GOM</title>
+    <title>Presupuesto / RUBAL-GOM</title>
 
     <!-- shortcut icon -->
     <link rel="shortcut icon" href="../img/shortcut.png">
@@ -99,56 +99,41 @@
                 </h3>
             </div>
             <div class="mainProductos">
-                <h2 class="productoNombre">
-                    MATERIALES
+                <h2 class="productoNombre" id="formulario">
+                    PRESUPUESTO
                 </h2>    
             </div>
         </main>
+        
+        <!-- FORMULARIO -->
+        <section class="sectionFormulario">
+            <div class="divFormulario">
+                <form action="https://formspree.io/... ?" method="POST" target="_blank">
+                    <div>
+                        <div>
+                            <input class="inputs formulario__flex-nombre" type="text" name="nombre" placeholder="Nombre">
+                        </div>    
 
-        <!-- BUSCADOR -->
-        <section class="sectionBuscadorMobilePaginas">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="¿Qué producto estás buscando?" aria-label="Search">
-                <button class="btn btn-outline-primary" type="submit">buscar</button>
-              </form>
-        </section>
-
-        <!-- SOLUCIONES -->
-        <section class="sectionSoluciones">
-            <div class="divSoluciones">
-                <p>
-                    ¿No tenemos el producto que necesitás? <br>
-                    Nosotros hacemos lo posible por conseguirlo.
-                </p>
-                <a href="https://api.whatsapp.com/send?phone=5491141948499" target="_blank">
-                    Contactanos
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-            </div>
-        </section>
-
-        <!-- SERVICIOS OFRECIDOS -->
-        <section class="sectionServiciosOfrecidos">
-            <div class="divServiciosOfrecidos">
-                <a href="pags/presupuesto.html#formulario" target="_blank">
-                    <b>Solicitá tu presupuesto</b>
-                </a>
-            </div>
-        </section>
-
-        <!-- REPUESTOS -->
-        <section class="sectionRepuestos">
-            <div class="divRepuestos">
-                <p>REPUESTOS Y ACCESORIOS
-        </section>
-
-        <!-- MARCAS -->
-        <section class="sectionMarcas">
-            <div class="divMarcas">
-                <img src="../img/prueba/logoFanaQuimico.png" alt="logo fana quimico">
-                <img src="../img/prueba/logoKavanag.png" alt="logo kavanag">
-                <img src="../img/prueba/logoTrico.png" alt="logo trico">
-                <img src="../img/prueba/logoMitsuba.png" alt="logo mitsuba">
+                        <div>
+                            <input class="inputs formulario__flex-apellido" type="text" name="apellido" placeholder="Apellido">
+                        </div>    
+                        
+                        <div>
+                            <input class="inputs" type="text" name="email" placeholder="Email" required>
+                        </div>
+                            
+                        <div>
+                            <input class="inputs" type="tel" name="telefono" placeholder="Teléfono">
+                        </div>
+    
+                        <div>
+                            <textarea class="inputs formulario__text-area" name="mensaje" placeholder="¡Te responderemos en breve!" cols="30" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <input class="form__boton" type="submit" value="Enviar">
+                    </div>
+                </form>
             </div>
         </section>
 
@@ -161,7 +146,7 @@
                 </a>
             </div>
         </section>
-        
+
         <!-- FOOTER -->
         <footer class="footer">
             <div class="divTelefonos">

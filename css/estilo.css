@@ -608,6 +608,63 @@
     text-align: center;
     margin: 0;
   }
+  /* FORMULARIO */
+  .sectionFormulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDA1F;
+  }
+  .sectionFormulario form {
+    padding: 1rem 0 2rem 0;
+  }
+  .sectionFormulario form div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  .sectionFormulario form div div input {
+    text-align: center;
+    color: #1100CC;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #1100CC;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #FFDA1F;
+  }
+  .sectionFormulario form div div textarea {
+    text-align: center;
+    color: #1100CC;
+    border: 1px solid #1100CC;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #FFDA1F;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
+  .sectionFormulario form div .form__boton {
+    text-align: center;
+    color: #1100CC;
+    border: 1px solid #1100CC;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #FFDA1F;
+    display: block;
+    margin: auto;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .sectionFormulario form div .form__boton:hover {
+    background-color: #080066;
+    color: #FFDD33;
+  }
 }
 /* generales */
 * {

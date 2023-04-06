@@ -568,4 +568,56 @@
             }
         }
     }
+
+    /* FORMULARIO */
+    .sectionFormulario{
+        @include flex;
+        background-color: $amarillo;
+        form{
+            padding: 1rem 0 2rem 0;
+            div{
+                div{
+                    @include flex;
+                    padding: 0.5rem 0;
+                    input{
+                        text-align: center;
+                        color: $azulito;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 1px solid $azulito;
+                        font-size: 1rem;
+                        @include letraTextos;
+                        background-color: $amarillo;
+                    }
+                    textarea{
+                        text-align: center;
+                        color: $azulito;
+                        border: 1px solid $azulito;
+                        font-size: 1rem;
+                        @include letraTextos;
+                        background-color: $amarillo;
+                        border-radius: 0.5rem;
+                        padding: 0.5rem;
+                    }
+                }
+                .form__boton{
+                    text-align: center;
+                    color: $azulito;
+                    border: 1px solid $azulito;
+                    font-size: 1rem;
+                    @include letraTextos;
+                    background-color: $amarillo;
+                    @include centrado;
+                    padding: 0 1rem;
+                    margin-top: 0.5rem;
+                    border-radius: 0.5rem;
+                    &:hover{
+                        background-color: $azul;
+                        color: $amarillito;
+                    }
+                }
+            }
+        }
+    }
 }
