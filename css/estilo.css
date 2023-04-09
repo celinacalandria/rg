@@ -253,6 +253,28 @@
   .sectionServiciosTerminados .verMas a:hover {
     color: #080066;
   }
+  /* SERVICIOS TERMINADOS 2 */
+  .sectionServiciosTerminados2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem 0 0 0;
+    background-color: #FFDA1F;
+  }
+  .sectionServiciosTerminados2 .verMas {
+    background-color: #FFDA1F;
+  }
+  .sectionServiciosTerminados2 .verMas a {
+    text-decoration: none;
+    text-align: center;
+    color: #1100CC;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .sectionServiciosTerminados2 .verMas a:hover {
+    color: #080066;
+  }
   /* SERVICIOS OFRECIDOS */
   .sectionServiciosOfrecidos div {
     padding: 2rem 0;
@@ -397,6 +419,9 @@
   }
   .footerUbicacion div a:hover {
     color: #EBEBEB;
+  }
+  .footerUbicacion div a i {
+    padding: 0.35rem;
   }
   /* FOOTER */
   .footer {
@@ -608,6 +633,7 @@
     text-align: center;
     margin: 0;
   }
+  /***** PRESUPUESTO *****/
   /* FORMULARIO */
   .sectionFormulario {
     display: flex;
@@ -664,6 +690,33 @@
   .sectionFormulario form div .form__boton:hover {
     background-color: #080066;
     color: #FFDD33;
+  }
+  /***** SERVICIOS *****/
+  .sectionServiciosDescripcion {
+    background-color: #05003D;
+    padding: 2rem 3.5rem;
+  }
+  .sectionServiciosDescripcion .divServiciosDescripcion p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    color: #EBEBEB;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionServiciosDescripcion .divServiciosDescripcion ul {
+    padding: 1rem 2rem 0 2rem;
+    margin: 0;
+  }
+  .sectionServiciosDescripcion .divServiciosDescripcion ul li {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #1100CC;
+    color: #FFDD33;
+    padding: 0.5rem 0;
+    list-style-type: circle;
   }
 }
 /* generales */

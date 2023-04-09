@@ -236,6 +236,27 @@
         }
     }
 
+    /* SERVICIOS TERMINADOS 2 */
+    .sectionServiciosTerminados2{
+        @include flex;
+        flex-direction: column;
+        padding: 1.5rem 0 0 0;
+        background-color: $amarillo;
+        .verMas{
+            background-color: $amarillo;
+            a{
+                text-decoration: none;
+                text-align: center;
+                color: $azulito;
+                font-size: 1rem;
+                padding: 0.5rem;
+                &:hover{
+                    color: $azul;
+                }
+            }
+        }
+    }
+
     /* SERVICIOS OFRECIDOS */
     .sectionServiciosOfrecidos{
         div{
@@ -368,6 +389,9 @@
                 text-align: center;
                 &:hover{
                     color: $blanco;
+                }
+                i{
+                    padding: 0.35rem;
                 }
             }
         }
@@ -569,6 +593,8 @@
         }
     }
 
+    /***** PRESUPUESTO *****/
+
     /* FORMULARIO */
     .sectionFormulario{
         @include flex;
@@ -616,6 +642,32 @@
                         background-color: $azul;
                         color: $amarillito;
                     }
+                }
+            }
+        }
+    }
+
+    /***** SERVICIOS *****/
+    .sectionServiciosDescripcion{
+        background-color: $azulote;
+        padding: 2rem 3.5rem;
+        .divServiciosDescripcion{
+            p{
+                @include letraSubtitulos;
+                color: $blanco;
+                text-align: center;
+                font-size: 1.1rem;
+                padding: 0;
+                margin: 0;
+            }
+            ul{
+                padding: 1rem 2rem 0 2rem;
+                margin: 0;
+                li{
+                    @include letraSubtitulos;
+                    color: $amarillito;
+                    padding: 0.5rem 0;
+                    list-style-type: circle;
                 }
             }
         }
