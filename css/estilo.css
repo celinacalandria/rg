@@ -142,8 +142,7 @@
     width: 100%;
     height: auto;
     transition: 0.5s ease;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+    backface-visibility: hidden;
   }
   .sectionSerena div h3 {
     text-align: center;
@@ -469,14 +468,6 @@
     font-size: 1.1rem;
     padding: 0.2rem;
   }
-  .footer .divRedes p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color: #FFDD33;
-    font-size: 1rem;
-    padding: 0;
-    margin: 0.5rem 0 0 0;
-  }
   .footer .divRedes a {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -714,7 +705,7 @@
     font-family: "Montserrat";
     font-weight: 400;
     color: #1100CC;
-    color: #FFDD33;
+    color: #FFDA1F;
     padding: 0.5rem 0;
     list-style-type: circle;
   }

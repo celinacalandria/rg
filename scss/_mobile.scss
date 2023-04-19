@@ -435,13 +435,6 @@
                 font-size: 1.1rem;
                 padding: 0.2rem;
             }
-            p{
-                @include letraTextos;
-                color: $amarillito;
-                font-size: 1rem;
-                padding: 0;
-                margin: 0.5rem 0 0 0;
-            }
             a{
                 @include letraTextos;
                 color: $amarillito;
@@ -665,7 +658,7 @@
                 margin: 0;
                 li{
                     @include letraSubtitulos;
-                    color: $amarillito;
+                    color: $amarillo;
                     padding: 0.5rem 0;
                     list-style-type: circle;
                 }
