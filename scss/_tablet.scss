@@ -1,0 +1,161 @@
+@media (min-width: 600px) {
+    
+    /***** INDEX *****/
+
+    /* NAVBAR */
+    #menu{
+        .container-fluid{
+            .navbarMobile {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 3fr 1fr;
+                grid-template-rows: auto;
+                grid-template-areas: 
+                    "logo menu";
+                padding: 0;
+                .navbar-toggler{
+                    width: 40%;
+                    height: auto;
+                }
+                a{
+                    grid-area: logo;
+                    text-align: center;
+                    img{
+                        width: 300px;
+                        height: 80px;
+                    }
+                }
+            }
+            .navbar-collapse{
+                text-align: center;
+                .nav-item{
+                    .dropdown-menu{
+                        text-align: center
+                    }
+                }
+            }
+        } 
+    }
+
+    /* MAIN */
+    .mainMobile{
+        .mainSubtitulo{
+            h3{
+                font-size: 1.3rem;
+            }
+        }
+        .mainProductos{
+            a{
+                width: 45%;
+                border: 1px solid $amarillo;
+            }
+        }
+    }
+
+    /* SERENA TUS SUEÑOS */
+    .sectionSerena{
+        div{
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    /* BUSCADOR */
+    .sectionBuscadorMobile{
+        form{
+            padding: 2.5rem 1.5rem;
+        }
+    }
+
+    /* SERVICIOS OFRECIDOS */
+    .sectionServiciosOfrecidos{
+        div{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    /* MARCAS */
+    .sectionMarcas{
+        div{
+            flex-wrap: nowrap;
+            img{
+                padding: 0.75rem;
+                width: 20%;
+                height: auto;
+            }
+        }
+    }
+
+    /* PRODUCTOS VARIOS */
+    .sectionProductosVarios{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    a{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /* PAGINAS */
+
+    /* CATEGORIAS */
+    .sectionCategorias{
+        div{
+            .categoriaItem{
+                @include flex;
+                flex-direction: column;
+                img{
+                    width: 45%;
+                    height: auto;
+                    border-top: 1px solid $azul;
+                }
+                p{
+                    width: 45%;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+
+    /* BUSCADOR PAGS */
+    .sectionBuscadorMobilePaginas{
+        form{
+            padding: 2.5rem 1.5rem;
+            background-color: $azul;
+        }
+    }
+    
+    /* SERVICIOS DESCRIPCION */
+    .sectionServiciosDescripcion{
+        .divServiciosDescripcion{
+            ul{
+                text-align: center;
+                li{
+                    list-style-type: none;
+                }
+
+            }
+        }
+    }
+
+    /* PRESUPUESTO */
+    .sectionFormulario{
+        width: 100%;
+        .divFormulario{
+            width: 100%;
+            form{
+                width: 100%;
+                div{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
