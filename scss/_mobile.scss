@@ -51,6 +51,22 @@
                     }
                     
                 }
+                /* BUSCADOR */
+                .sectionBuscadorMobile{
+                    form{
+                        @include flex;
+                        padding: 0.5rem 0;
+                        @include letraTextos;
+                        input{
+                            text-align: center;
+                            font-size: 0.8rem;
+                        }
+                        button{
+                            font-size: 0.9rem;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
             }
         } 
     }
@@ -103,24 +119,6 @@
                         }
                     }
                 }
-            }
-        }
-    }
-
-    /* BUSCADOR */
-    .sectionBuscadorMobile{
-        form{
-            @include flex;
-            padding: 1rem;
-            @include letraTextos;
-            background-color: $amarillo;
-            input{
-                text-align: center;
-                font-size: 0.8rem;
-            }
-            button{
-                font-size: 0.9rem;
-                font-size: 0.8rem;
             }
         }
     }
@@ -626,48 +624,57 @@
     .sectionFormulario{
         @include flex;
         background-color: $amarillo;
-        form{
-            padding: 1rem 0 2rem 0;
-            div{
+        width: 100%;
+        .divFormulario{
+            width: 100%;
+            form{
+                width: 100%;
+                padding: 1rem 0 2rem 0;
                 div{
-                    @include flex;
-                    padding: 0.5rem 0;
-                    input{
-                        text-align: center;
-                        color: $azulito;
-                        border-top: none;
-                        border-left: none;
-                        border-right: none;
-                        border-bottom: 1px solid $azulito;
-                        font-size: 1rem;
-                        @include letraTextos;
-                        background-color: $amarillo;
+                    width: 100%;
+                    div{
+                        width: 100%;
+                        @include flex;
+                        padding: 0.5rem 0;
+                        input{
+                            text-align: center;
+                            color: $azulito;
+                            border-top: none;
+                            border-left: none;
+                            border-right: none;
+                            border-bottom: 1px solid $azulito;
+                            font-size: 1rem;
+                            @include letraTextos;
+                            background-color: $amarillo;
+                            width: 70%;
+                        }
+                        textarea{
+                            text-align: center;
+                            color: $azulito;
+                            border: 1px solid $azulito;
+                            font-size: 1rem;
+                            @include letraTextos;
+                            background-color: $amarillo;
+                            border-radius: 0.5rem;
+                            padding: 0.5rem;
+                            width: 70%;
+                        }
                     }
-                    textarea{
+                    .form__boton{
                         text-align: center;
                         color: $azulito;
                         border: 1px solid $azulito;
                         font-size: 1rem;
                         @include letraTextos;
                         background-color: $amarillo;
+                        @include centrado;
+                        padding: 0 1rem;
+                        margin-top: 0.5rem;
                         border-radius: 0.5rem;
-                        padding: 0.5rem;
-                    }
-                }
-                .form__boton{
-                    text-align: center;
-                    color: $azulito;
-                    border: 1px solid $azulito;
-                    font-size: 1rem;
-                    @include letraTextos;
-                    background-color: $amarillo;
-                    @include centrado;
-                    padding: 0 1rem;
-                    margin-top: 0.5rem;
-                    border-radius: 0.5rem;
-                    &:hover{
-                        background-color: $azul;
-                        color: $amarillito;
+                        &:hover{
+                            background-color: $azul;
+                            color: $amarillito;
+                        }
                     }
                 }
             }

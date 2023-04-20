@@ -49,6 +49,7 @@
 }
 #menu .container-fluid .navbar-collapse {
   padding: 0 1.5rem 0.5rem 1rem;
+  /* BUSCADOR */
 }
 #menu .container-fluid .navbar-collapse .nav-item .dropdown-menu {
   background-color: #FFEE99;
@@ -58,6 +59,22 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #1100CC;
+}
+#menu .container-fluid .navbar-collapse .sectionBuscadorMobile form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+#menu .container-fluid .navbar-collapse .sectionBuscadorMobile form input {
+  text-align: center;
+  font-size: 0.8rem;
+}
+#menu .container-fluid .navbar-collapse .sectionBuscadorMobile form button {
+  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* MAIN */
@@ -116,25 +133,6 @@
   filter: blur(1.1) opacity(80%) brightness(90%);
   transform: scale(1.1);
   transition: all 0.3s;
-}
-
-/* BUSCADOR */
-.sectionBuscadorMobile form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  background-color: #FFDA1F;
-}
-.sectionBuscadorMobile form input {
-  text-align: center;
-  font-size: 0.8rem;
-}
-.sectionBuscadorMobile form button {
-  font-size: 0.9rem;
-  font-size: 0.8rem;
 }
 
 /* SERENA */
@@ -688,17 +686,26 @@
   justify-content: center;
   align-items: center;
   background-color: #FFDA1F;
+  width: 100%;
 }
-.sectionFormulario form {
+.sectionFormulario .divFormulario {
+  width: 100%;
+}
+.sectionFormulario .divFormulario form {
+  width: 100%;
   padding: 1rem 0 2rem 0;
 }
-.sectionFormulario form div div {
+.sectionFormulario .divFormulario form div {
+  width: 100%;
+}
+.sectionFormulario .divFormulario form div div {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.5rem 0;
 }
-.sectionFormulario form div div input {
+.sectionFormulario .divFormulario form div div input {
   text-align: center;
   color: #1100CC;
   border-top: none;
@@ -709,8 +716,9 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   background-color: #FFDA1F;
+  width: 70%;
 }
-.sectionFormulario form div div textarea {
+.sectionFormulario .divFormulario form div div textarea {
   text-align: center;
   color: #1100CC;
   border: 1px solid #1100CC;
@@ -720,8 +728,9 @@
   background-color: #FFDA1F;
   border-radius: 0.5rem;
   padding: 0.5rem;
+  width: 70%;
 }
-.sectionFormulario form div .form__boton {
+.sectionFormulario .divFormulario form div .form__boton {
   text-align: center;
   color: #1100CC;
   border: 1px solid #1100CC;
@@ -735,7 +744,7 @@
   margin-top: 0.5rem;
   border-radius: 0.5rem;
 }
-.sectionFormulario form div .form__boton:hover {
+.sectionFormulario .divFormulario form div .form__boton:hover {
   background-color: #080066;
   color: #FFDD33;
 }
@@ -793,36 +802,61 @@
   }
   #menu .container-fluid .navbar-collapse {
     text-align: center;
+    /* BUSCADOR */
   }
   #menu .container-fluid .navbar-collapse .nav-item .dropdown-menu {
     text-align: center;
+  }
+  #menu .container-fluid .navbar-collapse .sectionBuscadorMobile form {
+    padding: 1rem 0 1.5rem 0;
+  }
+  #menu .container-fluid .navbar-collapse .sectionBuscadorMobile form input {
+    width: 50%;
   }
   /* MAIN */
   .mainMobile .mainSubtitulo h3 {
     font-size: 1.3rem;
   }
+  .mainMobile .mainProductos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding-bottom: 4rem;
+  }
   .mainMobile .mainProductos a {
-    width: 45%;
+    width: 48%;
     border: 1px solid #FFDA1F;
+    border: none;
+  }
+  .mainMobile .mainProductos a h2 {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* SERENA TUS SUEÑOS */
   .sectionSerena div h3 {
     font-size: 1.5rem;
   }
-  /* BUSCADOR */
-  .sectionBuscadorMobile form {
-    padding: 2.5rem 1.5rem;
+  .sectionSerena div .efectoCard {
+    top: 40%;
   }
   /* SERVICIOS OFRECIDOS */
   .sectionServiciosOfrecidos div p {
     font-size: 1.5rem;
   }
+  /* ANTIGUEDAD */
+  .sectionAntiguedad div {
+    padding: 3rem;
+  }
   /* MARCAS */
   .sectionMarcas div {
     flex-wrap: nowrap;
+    padding: 3rem 0;
   }
   .sectionMarcas div img {
-    padding: 0.75rem;
+    padding: 0.5rem;
     width: 20%;
     height: auto;
   }
