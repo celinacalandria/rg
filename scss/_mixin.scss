@@ -16,6 +16,11 @@
     font-weight: 400;
 }
 
+@mixin letraSS{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+}
+
 /* m=0 p=0 */
 @mixin NMP{
     margin: 0px;

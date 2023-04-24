@@ -23,10 +23,11 @@
                     margin: 0.5rem;
                     color: $azulito;
                     border-color: $azulito;
-                    border: 3px solid $azulito;
+                    border: 2px solid $azulito;
+                    background-color: transparent;
+                    border-radius: 0.25rem;
                     .fa{
-                        color:$azulito; 
-                        font-size: 20px; 
+                        font-size: 15px; 
                         padding: 0.3rem;
                     }
                 }
@@ -106,15 +107,16 @@
                 div{
                     overflow: hidden;
                     img{
-                        width: 80%;
+                        width: 70%;
                         height: auto;
                         display: block;
                         margin: auto;
                         transition: all 0.3s;
+                        padding: 0.5rem;
                         &:hover{
                             /* filter: saturate(1) ; */
                             filter: blur(1.1) opacity(80%) brightness(90%);
-                            transform: scale(1.10);
+                            transform: scale(1.05);
                             transition: all 0.3s;
                         }
                     }
@@ -126,6 +128,14 @@
     /* SERENA */
     .sectionSerena{
         @include NMP;
+        h5{
+            text-align: center;
+            font-size: 1.5rem;
+            @include letraSS;
+            color: $azulito;
+            border-top: 0.5px solid $azulito;
+            padding-top: 0.4rem;
+        }
         div{
             position: relative;
             width: 100%;

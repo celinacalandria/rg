@@ -33,11 +33,12 @@
   margin: 0.5rem;
   color: #1100CC;
   border-color: #1100CC;
-  border: 3px solid #1100CC;
+  border: 2px solid #1100CC;
+  background-color: transparent;
+  border-radius: 0.25rem;
 }
 #menu .container-fluid .navbarMobile .navbar-toggler .fa {
-  color: #1100CC;
-  font-size: 20px;
+  font-size: 15px;
   padding: 0.3rem;
 }
 #menu .container-fluid .navbarMobile a {
@@ -122,16 +123,17 @@
   overflow: hidden;
 }
 .mainMobile .mainProductos a div img {
-  width: 80%;
+  width: 70%;
   height: auto;
   display: block;
   margin: auto;
   transition: all 0.3s;
+  padding: 0.5rem;
 }
 .mainMobile .mainProductos a div img:hover {
   /* filter: saturate(1) ; */
   filter: blur(1.1) opacity(80%) brightness(90%);
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 0.3s;
 }
 
@@ -139,6 +141,15 @@
 .sectionSerena {
   margin: 0px;
   padding: 0px;
+}
+.sectionSerena h5 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  color: #1100CC;
+  border-top: 0.5px solid #1100CC;
+  padding-top: 0.4rem;
 }
 .sectionSerena div {
   position: relative;
