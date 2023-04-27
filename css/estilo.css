@@ -145,11 +145,12 @@
 .sectionSerena h5 {
   text-align: center;
   font-size: 1.5rem;
-  font-family: "Comic Neue", cursive;
+  font-family: "Courgette", cursive;
   font-weight: 400;
   color: #1100CC;
   border-top: 0.5px solid #1100CC;
-  padding-top: 0.4rem;
+  padding: 0.5rem 0;
+  margin: 0;
 }
 .sectionSerena div {
   position: relative;
@@ -184,7 +185,7 @@
   opacity: 0;
   position: absolute;
   width: 70%;
-  top: 35%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -847,11 +848,14 @@
     align-items: center;
   }
   /* SERENA TUS SUEÑOS */
+  .sectionSerena h5 {
+    font-size: 2rem;
+  }
   .sectionSerena div h3 {
     font-size: 1.5rem;
   }
   .sectionSerena div .efectoCard {
-    top: 40%;
+    top: 40.5%;
   }
   /* SERVICIOS OFRECIDOS */
   .sectionServiciosOfrecidos div p {
