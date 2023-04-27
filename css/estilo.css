@@ -185,8 +185,8 @@
   opacity: 0;
   position: absolute;
   width: 70%;
-  top: 37%;
-  left: 50%;
+  top: 34.5%;
+  left: 59%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -202,6 +202,7 @@
   font-size: 1rem;
   color: #EBEBEB;
   text-decoration: none;
+  width: 75%;
 }
 .sectionSerena div .efectoCard a:hover {
   background-color: #EBEBEB;
