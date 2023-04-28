@@ -1,4 +1,5 @@
 /* mobile */
+
     /*  BODY */
     #inicio{
         @include NMP;
@@ -42,15 +43,26 @@
             .navbar-collapse{
                 padding: 0 1.5rem 0.5rem 1rem;
                 .nav-item{
+                    .nav-link{
+                        @include letraTextos;
+                        color: $azulito;
+                        &:hover{
+                            font-weight: 800;
+                            color: $azulado;
+                        }
+                    }
                     .dropdown-menu{
                         background-color: $pastel;
                         border: none;
+                        a{
+                            @include letraTextos;
+                            color: $azulito;
+                            &:hover{
+                                font-weight: 800;
+                                color: $azulado;
+                            }
+                        }
                     }
-                    a{
-                        @include letraTextos;
-                        color: $azulito;
-                    }
-                    
                 }
                 /* BUSCADOR */
                 .sectionBuscadorMobile{
@@ -94,6 +106,9 @@
                 text-decoration: none;
                 margin: 0;
                 width: 100%;
+                &:hover h2{
+                    color: $azulado;
+                }
                 h2{
                     @include letraTitulos;
                     font-size: 1.3rem;
@@ -106,19 +121,28 @@
                 }
                 div{
                     overflow: hidden;
+                    width: 100%;
+                    height: 20rem;
+                    @include flex;
+                    @include NMP;
                     img{
-                        width: 70%;
+                        width: 60%;
                         height: auto;
-                        display: block;
-                        margin: auto;
                         transition: all 0.3s;
-                        padding: 0.5rem;
                         &:hover{
                             /* filter: saturate(1) ; */
                             filter: blur(1.1) opacity(80%) brightness(90%);
                             transform: scale(1.05);
                             transition: all 0.3s;
                         }
+                    }
+                    .imgM{
+                        width: 65%;
+                        height: auto
+                    }
+                    .imgD{
+                        width: 55%;
+                        height: auto;
                     }
                 }
             }
@@ -130,7 +154,9 @@
         @include NMP;
         h5{
             text-align: center;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 0.1rem;
             @include letraSS;
             color: $azulito;
             border-top: 0.5px solid $azulito;
@@ -193,6 +219,10 @@
                 opacity: 1;
             }
         }
+    }
+
+    .sectionSerenaDesktop{
+        display: none;
     }
 
     /* SOLUCIONES */

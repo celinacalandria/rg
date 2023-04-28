@@ -52,14 +52,27 @@
   padding: 0 1.5rem 0.5rem 1rem;
   /* BUSCADOR */
 }
+#menu .container-fluid .navbar-collapse .nav-item .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #1100CC;
+}
+#menu .container-fluid .navbar-collapse .nav-item .nav-link:hover {
+  font-weight: 800;
+  color: #0E00A3;
+}
 #menu .container-fluid .navbar-collapse .nav-item .dropdown-menu {
   background-color: #FFEE99;
   border: none;
 }
-#menu .container-fluid .navbar-collapse .nav-item a {
+#menu .container-fluid .navbar-collapse .nav-item .dropdown-menu a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #1100CC;
+}
+#menu .container-fluid .navbar-collapse .nav-item .dropdown-menu a:hover {
+  font-weight: 800;
+  color: #0E00A3;
 }
 #menu .container-fluid .navbar-collapse .sectionBuscadorMobile form {
   display: flex;
@@ -107,6 +120,9 @@
   margin: 0;
   width: 100%;
 }
+.mainMobile .mainProductos a:hover h2 {
+  color: #0E00A3;
+}
 .mainMobile .mainProductos a h2 {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -121,20 +137,32 @@
 }
 .mainMobile .mainProductos a div {
   overflow: hidden;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
 }
 .mainMobile .mainProductos a div img {
-  width: 70%;
+  width: 60%;
   height: auto;
-  display: block;
-  margin: auto;
   transition: all 0.3s;
-  padding: 0.5rem;
 }
 .mainMobile .mainProductos a div img:hover {
   /* filter: saturate(1) ; */
   filter: blur(1.1) opacity(80%) brightness(90%);
   transform: scale(1.05);
   transition: all 0.3s;
+}
+.mainMobile .mainProductos a div .imgM {
+  width: 65%;
+  height: auto;
+}
+.mainMobile .mainProductos a div .imgD {
+  width: 55%;
+  height: auto;
 }
 
 /* SERENA */
@@ -144,7 +172,9 @@
 }
 .sectionSerena h5 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
   font-family: "Courgette", cursive;
   font-weight: 400;
   color: #1100CC;
@@ -214,6 +244,10 @@
 }
 .sectionSerena div:hover .efectoCard {
   opacity: 1;
+}
+
+.sectionSerenaDesktop {
+  display: none;
 }
 
 /* SOLUCIONES */
@@ -790,6 +824,7 @@
   list-style-type: circle;
 }
 
+/* tablet */
 @media (min-width: 600px) {
   /***** INDEX *****/
   /* NAVBAR */
@@ -921,6 +956,110 @@
   }
   .sectionFormulario .divFormulario form div {
     width: 100%;
+  }
+}
+/* desktop */
+@media (min-width: 991px) {
+  /***** INDEX *****/
+  /* NAVBAR */
+  #menu .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  #menu .container-fluid .navbarMobile {
+    display: unset;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  #menu .container-fluid .navbar-collapse {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  #menu .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+    background-color: #EBEBEB;
+    padding: 1rem;
+  }
+  #menu .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-menu li {
+    border-bottom: 1px solid #080066;
+  }
+  #menu .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-menu .li1 {
+    border-top: 1px solid #080066;
+  }
+  #menu .container-fluid .navbar-collapse .navbar-nav .nav-item a {
+    padding: 0 2rem;
+  }
+  #menu .container-fluid .navbar-collapse .sectionBuscadorMobile form input {
+    width: 20rem;
+  }
+  /* MAIN */
+  .mainMobile .mainSubtitulo h3 {
+    font-size: 1.5rem;
+  }
+  .mainMobile .mainProductos a {
+    width: 33%;
+  }
+  .mainMobile .mainProductos a div {
+    height: 22rem;
+  }
+  /* SERENA SUEÑOS */
+  .sectionSerena {
+    display: none;
+  }
+  .sectionSerenaDesktop {
+    display: block;
+  }
+  .sectionSerenaDesktop .divSerena {
+    height: 15rem;
+    border-top: 1px solid #080066;
+    background-color: #1100CC;
+  }
+  .sectionSerenaDesktop .divSerena h5 {
+    font-size: 2.2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    color: #EBEBEB;
+    padding: 4rem 0 2rem 0;
+    margin: 0;
+  }
+  .sectionSerenaDesktop .divSerena h3 {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    color: #EBEBEB;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+  }
+  .sectionSerenaDesktop a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    padding: 0.8rem;
+    border: 1px solid #080066;
+    background-color: #080066;
+    font-size: 1.3rem;
+    color: #EBEBEB;
+    text-decoration: none;
+    width: 100%;
+  }
+  .sectionSerenaDesktop a:hover {
+    background-color: #05003D;
+    color: #FFDA1F;
+    border: 1px solid #080066;
+  }
+  /* SOLUCIONES */
+  .divSoluciones {
+    height: 25rem;
   }
 }
 /* generales */
