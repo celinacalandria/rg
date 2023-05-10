@@ -112,7 +112,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem 0;
+  padding: 1rem 0 0 0;
   width: 100%;
 }
 .mainMobile .mainProductos a {
@@ -287,6 +287,31 @@
   background-color: #EBEBEB;
 }
 
+.sectionSoluciones2 div {
+  background-color: #FFDA1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.sectionSoluciones2 div a {
+  border: 1px solid #05003D;
+  border-radius: 10rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #080066;
+  color: #EBEBEB;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #05003D;
+}
+.sectionSoluciones2 div a:hover {
+  color: #05003D;
+  background-color: #EBEBEB;
+}
+
 /* SERVICIOS TERMINADOS */
 .sectionServiciosTerminados {
   display: flex;
@@ -385,6 +410,9 @@
 .sectionServiciosOfrecidos div a:hover {
   color: #EBEBEB;
 }
+.sectionServiciosOfrecidos .verMas {
+  display: none;
+}
 
 /* ANTIGUEDAD */
 .sectionAntiguedad div {
@@ -477,6 +505,11 @@
   padding-top: 0.5rem;
   width: 100%;
   height: auto;
+}
+
+/* FOOTER UBICACION DESKTOP */
+.footerUbicacionDesktop {
+  display: none;
 }
 
 /* FOOTER UBICACION */
@@ -915,7 +948,7 @@
   .sectionProductosVarios .carousel .carousel-inner .carousel-item a {
     font-size: 1.2rem;
   }
-  /* PAGINAS */
+  /***** PAGINAS *****/
   /* CATEGORIAS */
   .sectionCategorias div .categoriaItem {
     display: flex;
@@ -1061,6 +1094,143 @@
   .divSoluciones {
     height: 25rem;
   }
+  /* SERVICIOS TERMINADOS */
+  .sectionServiciosTerminados {
+    display: none;
+  }
+  /* SERVICIOS OFRECIDOS */
+  .sectionServiciosOfrecidos div p {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+  .sectionServiciosOfrecidos div a {
+    padding: 1rem;
+    font-size: 1.6rem;
+  }
+  .sectionServiciosOfrecidos .verMas {
+    display: block;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #0E00A3;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #080066;
+    color: #FFDA1F;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+  }
+  .sectionServiciosOfrecidos .verMas:hover {
+    color: #EBEBEB;
+  }
+  /* ANTIGUEDAD */
+  .sectionAntiguedad div {
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* MARCAS */
+  .sectionMarcas div {
+    justify-content: space-evenly;
+  }
+  .sectionMarcas div img {
+    padding: 1rem;
+    width: 12%;
+    height: auto;
+  }
+  /* PRODUCTOS VARIOS */
+  .sectionProductosVarios {
+    height: 7rem;
+  }
+  .sectionProductosVarios .carousel {
+    background-color: #080066;
+  }
+  /* UBICACION */
+  .sectionUbicacion {
+    display: none;
+  }
+  .footerUbicacionDesktop {
+    display: block;
+    background-color: #FFDA1F;
+    padding-top: 3rem;
+  }
+  .footerUbicacionDesktop div {
+    background-color: #0E00A3;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footerUbicacionDesktop div a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFDD33;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .footerUbicacionDesktop div a:hover {
+    color: #EBEBEB;
+  }
+  .footerUbicacionDesktop div a i {
+    padding: 0.35rem;
+  }
+  /***** PAGINAS PRODUCTOS *****/
+  /* MAIN */
+  .mainMobilePags .mainSubtitulo h3 {
+    font-size: 1.2rem;
+  }
+  /* CATEGORIAS */
+  .sectionCategorias {
+    flex-direction: row;
+  }
+  .sectionCategorias div {
+    width: 100%;
+    height: auto;
+  }
+  .sectionCategorias div .categoriaItem {
+    width: 100%;
+  }
+  .sectionCategorias div .categoriaItem img {
+    width: 65%;
+    height: auto;
+  }
+  .sectionCategorias div .categoriaItem p {
+    width: 65%;
+  }
+  /***** SERVICIOS *****/
+  .sectionServiciosDescripcion {
+    padding: 3rem 0;
+  }
+  .sectionServiciosDescripcion .divServiciosDescripcion p {
+    font-size: 1.2rem;
+  }
+  .sectionServiciosDescripcion ul li {
+    font-size: 1.1rem;
+  }
+  .sectionServiciosTerminados2 {
+    background-color: #FFDA1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionServiciosTerminados2 .carousel .carousel-inner .carousel-item div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionServiciosTerminados2 .carousel .carousel-inner .carousel-item div img {
+    width: 50%;
+    height: auto;
+  }
+  .sectionSoluciones2 div {
+    height: 10rem;
+  }
+  /* QUIENES SOMOS */
 }
 /* generales */
 * {

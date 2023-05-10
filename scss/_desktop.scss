@@ -118,7 +118,166 @@
         height: 25rem;
     }
 
-    
+    /* SERVICIOS TERMINADOS */
+    .sectionServiciosTerminados{
+        display: none;
+    }
 
+    /* SERVICIOS OFRECIDOS */
+    .sectionServiciosOfrecidos{
+        div{
+            p{
+                padding: 0.5rem 0;
+                font-size: 1.5rem;
+            }
+            a{
+                padding: 1rem;
+                font-size: 1.6rem;
+            }
+        }
+        .verMas{
+            display: block;
+            padding: 1rem;
+            font-size: 1.2rem;
+            background-color: $azulado;
+            text-align: center;
+            @include letraTitulos;
+            color: $amarillo;
+            text-decoration: none;
+            letter-spacing: 0.1rem;
+            &:hover{
+                color: $blanco;
+            }
+        }
+    }
+
+    /* ANTIGUEDAD */
+    .sectionAntiguedad{
+        div{
+            height: 15rem;
+            @include flex;
+        }
+    }
+
+    /* MARCAS */
+    .sectionMarcas{
+        div{
+            justify-content: space-evenly;
+            img{
+                padding: 1rem;
+                width: 12%;
+                height: auto;
+            }
+        }
+    }
+
+    /* PRODUCTOS VARIOS */ 
+    .sectionProductosVarios{
+        height: 7rem;
+        .carousel{
+            background-color: $azul;
+        }
+    }
+
+    /* UBICACION */
+    .sectionUbicacion{
+        display: none;
+    }
+    .footerUbicacionDesktop{
+        display: block;
+        background-color: $amarillo;
+        padding-top: 3rem;
+        div{
+            background-color: $azulado;
+            padding: 1rem;
+            @include flex;
+            flex-direction: column;
+            a{
+                @include letraTextos;
+                color: $amarillito;
+                font-size: 1rem;
+                text-decoration: none;
+                @include NMP;
+                text-align: center;
+                &:hover{
+                    color: $blanco;
+                }
+                i{
+                    padding: 0.35rem;
+                }
+            }
+        }
+    }
+
+    /***** PAGINAS PRODUCTOS *****/
+
+    /* MAIN */
+    .mainMobilePags{
+        .mainSubtitulo{
+            h3{
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    /* CATEGORIAS */
+    .sectionCategorias{
+        flex-direction: row;
+        div{
+            width: 100%;
+            height: auto;
+            .categoriaItem{
+                width: 100%;
+                img{
+                    width: 65%;
+                    height: auto;
+                }
+                p{
+                    width: 65%;
+                }
+            }
+        }
+    }
+
+    /***** SERVICIOS *****/
+    .sectionServiciosDescripcion{
+        padding: 3rem 0;
+        .divServiciosDescripcion{
+            p{
+                font-size: 1.2rem;
+            }
+        }
+        ul{
+            li{
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    .sectionServiciosTerminados2{
+        background-color: $amarillo;
+        @include flex;
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    div{
+                        @include flex;
+                        img{
+                            width: 50%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sectionSoluciones2{
+        div{
+            height: 10rem;
+        }
+    }
+
+    /* QUIENES SOMOS */
     
 }
