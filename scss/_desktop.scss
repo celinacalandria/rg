@@ -6,6 +6,7 @@
 
     /* NAVBAR */
     #menu{
+        padding-bottom: 1rem;
         .container-fluid{
             @include flex;
             flex-direction: column;
@@ -114,9 +115,12 @@
     }
 
     /* SOLUCIONES */
-    .divSoluciones{
-        height: 25rem;
+    .sectionSoluciones{
+        div{
+            padding: 6rem;
+        }
     }
+  
 
     /* SERVICIOS TERMINADOS */
     .sectionServiciosTerminados{
@@ -278,6 +282,27 @@
         }
     }
 
-    /* QUIENES SOMOS */
-    
+    /* COLCHONES */
+    .sectionColchones{
+        div{
+            h3{
+                font-size: 1.7rem;
+            }
+            p{
+                font-size: 1.3rem;
+            }
+            ul{
+                li{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    /***** QUIENES SOMOS ******/
+    .sectionQuienes{
+        div{
+            padding: 3rem 5rem;
+        }
+    }
 }

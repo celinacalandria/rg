@@ -857,6 +857,105 @@
   list-style-type: circle;
 }
 
+/****** COLCHONES *****/
+.sectionColchones div {
+  background-color: #FFDA1F;
+  padding: 1rem 1rem 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sectionColchones div h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  color: #080066;
+  padding-bottom: 1rem;
+}
+.sectionColchones div p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #1100CC;
+  color: #080066;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+.sectionColchones div ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  padding-bottom: 1rem;
+}
+.sectionColchones div ul li {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #1100CC;
+  color: #0E00A3;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+.sectionColchones div a {
+  border: 1px solid #05003D;
+  border-radius: 10rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #080066;
+  color: #EBEBEB;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #05003D;
+}
+.sectionColchones div a:hover {
+  color: #05003D;
+  background-color: #EBEBEB;
+}
+
+/***** QUIENES SOMOS *****/
+.sectionQuienes div {
+  background-color: #FFDA1F;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sectionQuienes div p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #1100CC;
+  color: #080066;
+  font-size: 1.3rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+.sectionQuienes div a {
+  border: 1px solid #05003D;
+  border-radius: 10rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #080066;
+  color: #EBEBEB;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #05003D;
+}
+.sectionQuienes div a:hover {
+  color: #05003D;
+  background-color: #EBEBEB;
+}
+
 /* tablet */
 @media (min-width: 600px) {
   /***** INDEX *****/
@@ -995,6 +1094,9 @@
 @media (min-width: 991px) {
   /***** INDEX *****/
   /* NAVBAR */
+  #menu {
+    padding-bottom: 1rem;
+  }
   #menu .container-fluid {
     display: flex;
     justify-content: center;
@@ -1091,8 +1193,8 @@
     border: 1px solid #080066;
   }
   /* SOLUCIONES */
-  .divSoluciones {
-    height: 25rem;
+  .sectionSoluciones div {
+    padding: 6rem;
   }
   /* SERVICIOS TERMINADOS */
   .sectionServiciosTerminados {
@@ -1230,7 +1332,20 @@
   .sectionSoluciones2 div {
     height: 10rem;
   }
-  /* QUIENES SOMOS */
+  /* COLCHONES */
+  .sectionColchones div h3 {
+    font-size: 1.7rem;
+  }
+  .sectionColchones div p {
+    font-size: 1.3rem;
+  }
+  .sectionColchones div ul li {
+    font-size: 1.2rem;
+  }
+  /***** QUIENES SOMOS ******/
+  .sectionQuienes div {
+    padding: 3rem 5rem;
+  }
 }
 /* generales */
 * {

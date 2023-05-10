@@ -779,3 +779,91 @@
             }
         }
     }
+
+    /****** COLCHONES *****/
+    .sectionColchones{
+        div{
+            background-color: $amarillo;
+            padding: 1rem 1rem 2rem 1rem;
+            @include flex;
+            flex-direction: column;
+            h3{
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: 700;
+                letter-spacing: 0.1rem;
+                @include letraSS;
+                color: $azul;
+                padding-bottom: 1rem;
+            }
+            p{
+                @include letraSubtitulos;
+                color: $azul;
+                font-size: 1.1rem;
+                text-align: center;
+                letter-spacing: 0.1rem;
+                margin-bottom: 1rem;
+                
+            }
+            ul{
+                @include NMP;
+                list-style-type: none;
+                padding-bottom: 1rem;
+                li{
+                    @include letraSubtitulos;
+                    color: $azulado;
+                    font-size: 1rem;
+                    text-align: center;
+                    padding: 0.5rem
+                }
+            }
+            a{
+                border: 1px solid $azulote;
+                border-radius: 10rem;
+                @include letraTitulos;
+                color: $blanco;
+                text-decoration: none;
+                text-align: center;
+                font-size: 1.3rem;
+                padding: 0.5rem 1.5rem;
+                background-color: $azulote;
+                &:hover{
+                    color: $azulote;
+                    background-color: $blanco;
+                }
+            }
+        }
+    }
+
+    /***** QUIENES SOMOS *****/
+    .sectionQuienes{
+        div{
+            background-color: $amarillo;
+            padding: 3rem;
+            @include flex;
+            flex-direction: column;
+            p{
+                @include letraSubtitulos;
+                color: $azul;
+                font-size: 1.3rem;
+                text-align: center;
+                letter-spacing: 0.1rem;
+                margin-bottom: 2rem;
+            }
+            a{
+                border: 1px solid $azulote;
+                border-radius: 10rem;
+                @include letraTitulos;
+                color: $blanco;
+                text-decoration: none;
+                text-align: center;
+                font-size: 1.3rem;
+                padding: 0.5rem 1.5rem;
+                background-color: $azulote;
+                &:hover{
+                    color: $azulote;
+                    background-color: $blanco;
+                }
+            }
+        }
+    }
