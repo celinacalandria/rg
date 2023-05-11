@@ -653,6 +653,14 @@
   border-bottom: 1px solid #080066;
   border-left: none;
   border-right: none;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #1100CC;
+  font-size: 1rem;
+  color: #1100CC;
+  font-weight: 500;
+  padding: 0.5rem;
+  text-align: center;
 }
 .sectionCategoriasLista div ul li a {
   text-decoration: none;
@@ -868,11 +876,11 @@
 }
 .sectionColchones div h3 {
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
   font-family: "Courgette", cursive;
   font-weight: 400;
+  font-weight: 800;
   color: #080066;
   padding-bottom: 1rem;
 }
@@ -884,13 +892,13 @@
   font-size: 1.1rem;
   text-align: center;
   letter-spacing: 0.1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .sectionColchones div ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 .sectionColchones div ul li {
   font-family: "Montserrat";
@@ -911,6 +919,7 @@
   text-decoration: none;
   text-align: center;
   font-size: 1.3rem;
+  margin-top: 1.5rem;
   padding: 0.5rem 1.5rem;
   background-color: #05003D;
 }

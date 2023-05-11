@@ -594,6 +594,12 @@
                     border-bottom: 1px solid $azul;
                     border-left: none;
                     border-right: none;
+                    @include letraSubtitulos;
+                        font-size: 1rem;
+                        color: $azulito;
+                        font-weight: 500;
+                        padding: 0.5rem;
+                        text-align: center;
                     a{
                         text-decoration: none;
                         @include letraSubtitulos;
@@ -789,10 +795,10 @@
             flex-direction: column;
             h3{
                 text-align: center;
-                font-size: 1.5rem;
-                font-weight: 700;
+                font-size: 2rem;
                 letter-spacing: 0.1rem;
                 @include letraSS;
+                font-weight: 800;
                 color: $azul;
                 padding-bottom: 1rem;
             }
@@ -802,13 +808,12 @@
                 font-size: 1.1rem;
                 text-align: center;
                 letter-spacing: 0.1rem;
-                margin-bottom: 1rem;
-                
+                margin-bottom: 0.5rem;
             }
             ul{
                 @include NMP;
                 list-style-type: none;
-                padding-bottom: 1rem;
+                padding-bottom: 0.5rem;
                 li{
                     @include letraSubtitulos;
                     color: $azulado;
@@ -825,6 +830,7 @@
                 text-decoration: none;
                 text-align: center;
                 font-size: 1.3rem;
+                margin-top: 1.5rem;
                 padding: 0.5rem 1.5rem;
                 background-color: $azulote;
                 &:hover{
