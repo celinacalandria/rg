@@ -496,6 +496,25 @@
     .footer{
         background-color: $amarillo;
         padding: 1.5rem 0;
+        .divHorarios{
+            background-color: $azulado;
+            margin: 0 0 1.5rem 0;
+            padding: 1.5rem;
+            @include flex;
+            flex-direction: column;
+            i{
+                color: $amarillito;
+                font-weight: 200;
+                font-size: 1.1rem;
+                padding: 0.2rem;
+            }
+            p{
+                @include letraTextos;
+                color: $amarillito;
+                font-size: 1rem;
+                @include NMP;
+            }
+        }
         .divTelefonos{
             background-color: $azulado;
             padding: 1rem;

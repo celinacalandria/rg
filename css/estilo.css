@@ -546,6 +546,29 @@
   background-color: #FFDA1F;
   padding: 1.5rem 0;
 }
+.footer .divHorarios {
+  background-color: #0E00A3;
+  margin: 0 0 1.5rem 0;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .divHorarios i {
+  color: #FFDD33;
+  font-weight: 200;
+  font-size: 1.1rem;
+  padding: 0.2rem;
+}
+.footer .divHorarios p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #FFDD33;
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0px;
+}
 .footer .divTelefonos {
   background-color: #0E00A3;
   padding: 1rem;
