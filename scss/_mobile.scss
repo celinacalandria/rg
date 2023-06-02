@@ -860,6 +860,24 @@
         }
     }
 
+    .sectionColchonesTodoTipo{
+        padding-bottom: 1.5rem;
+        background-color: $amarillo;
+        div{
+            background-color: $azulote;
+            padding: 1.5rem;
+            p{
+                @include flex;
+                @include letraSubtitulos;
+                color: $blanco;
+                font-size: 1.3rem;
+                font-weight: 700;
+                text-align: center;
+                margin: 0;
+            }
+        }
+    }
+
     /***** QUIENES SOMOS *****/
     .sectionQuienes{
         div{

@@ -951,6 +951,28 @@
   background-color: #EBEBEB;
 }
 
+.sectionColchonesTodoTipo {
+  padding-bottom: 1.5rem;
+  background-color: #FFDA1F;
+}
+.sectionColchonesTodoTipo div {
+  background-color: #05003D;
+  padding: 1.5rem;
+}
+.sectionColchonesTodoTipo div p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #1100CC;
+  color: #EBEBEB;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
 /***** QUIENES SOMOS *****/
 .sectionQuienes div {
   background-color: #FFDA1F;
