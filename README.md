@@ -1,3 +1,0 @@
-# rubalgom-
-# caradepedo
-# rg
