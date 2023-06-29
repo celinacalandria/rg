@@ -224,24 +224,7 @@
         }
     }
 
-    /* CATEGORIAS */
-    .sectionCategorias{
-        flex-direction: row;
-        div{
-            width: 100%;
-            height: auto;
-            .categoriaItem{
-                width: 100%;
-                img{
-                    width: 65%;
-                    height: auto;
-                }
-                p{
-                    width: 65%;
-                }
-            }
-        }
-    }
+  
 
     /***** SERVICIOS *****/
     .sectionServiciosDescripcion{

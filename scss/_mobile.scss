@@ -237,7 +237,6 @@
                 color: $azul;
                 font-size: 1.3rem;
                 text-align: center;
-                letter-spacing: 0.1rem;
                 margin-bottom: 2rem;
             }
             a{
@@ -653,29 +652,17 @@
             }
             .categoriaItem{
                 margin: 0;
-                padding: 0.5rem 0;
-                h5{
+                padding: 0.25rem 0;
+                p{
                     @include letraTitulos;
                     color: $azulado;
-                    font-size: 1.3rem;
-                    margin: 0;
-                    padding: 0.5rem 0;
-                    text-transform: uppercase;
-                }
-                img{
-                    width: 70%;
-                    height: auto;
-                    margin: 0;
-                    padding: 0.5rem 0;
-                    border-top: 1px solid $azul;
-                }
-                p{
-                    background-color: $amarillo;
-                    @include letraTextos;
                     font-size: 1rem;
-                    width: 100%;
-                    margin: 0;
-                    padding: 1rem;
+                    @include NMP;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid $azul;
+                }
+                .p1{
+                    border-top: 1px solid $azul;
                 }
             }
         }
@@ -826,7 +813,6 @@
                 color: $azul;
                 font-size: 1.1rem;
                 text-align: center;
-                letter-spacing: 0.1rem;
                 margin-bottom: 0.5rem;
             }
             ul{
@@ -890,7 +876,6 @@
                 color: $azul;
                 font-size: 1.3rem;
                 text-align: center;
-                letter-spacing: 0.1rem;
                 margin-bottom: 2rem;
             }
             a{

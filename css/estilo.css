@@ -266,7 +266,6 @@
   color: #080066;
   font-size: 1.3rem;
   text-align: center;
-  letter-spacing: 0.1rem;
   margin-bottom: 2rem;
 }
 .sectionSoluciones div a {
@@ -723,33 +722,21 @@
 }
 .sectionCategorias div .categoriaItem {
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
 }
-.sectionCategorias div .categoriaItem h5 {
+.sectionCategorias div .categoriaItem p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #080066;
   color: #0E00A3;
-  font-size: 1.3rem;
-  margin: 0;
-  padding: 0.5rem 0;
-  text-transform: uppercase;
-}
-.sectionCategorias div .categoriaItem img {
-  width: 70%;
-  height: auto;
-  margin: 0;
-  padding: 0.5rem 0;
-  border-top: 1px solid #080066;
-}
-.sectionCategorias div .categoriaItem p {
-  background-color: #FFDA1F;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 1rem;
-  width: 100%;
-  margin: 0;
-  padding: 1rem;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #080066;
+}
+.sectionCategorias div .categoriaItem .p1 {
+  border-top: 1px solid #080066;
 }
 
 /* BUSCADOR */
@@ -914,7 +901,6 @@
   color: #080066;
   font-size: 1.1rem;
   text-align: center;
-  letter-spacing: 0.1rem;
   margin-bottom: 0.5rem;
 }
 .sectionColchones div ul {
@@ -989,7 +975,6 @@
   color: #080066;
   font-size: 1.3rem;
   text-align: center;
-  letter-spacing: 0.1rem;
   margin-bottom: 2rem;
 }
 .sectionQuienes div a {
@@ -1339,24 +1324,6 @@
   /* MAIN */
   .mainMobilePags .mainSubtitulo h3 {
     font-size: 1.2rem;
-  }
-  /* CATEGORIAS */
-  .sectionCategorias {
-    flex-direction: row;
-  }
-  .sectionCategorias div {
-    width: 100%;
-    height: auto;
-  }
-  .sectionCategorias div .categoriaItem {
-    width: 100%;
-  }
-  .sectionCategorias div .categoriaItem img {
-    width: 65%;
-    height: auto;
-  }
-  .sectionCategorias div .categoriaItem p {
-    width: 65%;
   }
   /***** SERVICIOS *****/
   .sectionServiciosDescripcion {
