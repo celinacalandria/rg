@@ -1,2 +1,1 @@
-# rubal.gom
-# rubal-gom
+# rubalgom-
