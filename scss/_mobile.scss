@@ -653,9 +653,10 @@
         @include flex;
         flex-direction: column;
         @include NMP;
-        padding-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
         div{
-           padding: 1rem 0;
+           @include NMP;
+            padding-bottom: 1.5rem;
            width: 100%;
            text-align: center;
             h4{
@@ -663,7 +664,7 @@
                 color: $azulito;
                 font-size: 1.4rem;
                 margin: 0;
-                padding: 0.5rem 0;
+                padding: 0 0 0.5rem 0;
             }
             .categoriaItem{
                 margin: 0;
