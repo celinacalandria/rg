@@ -24,7 +24,8 @@
                 .navbar-nav{
                     .nav-item{
                         .dropdown-menu{
-                            background-color: $blanco;
+                            background: none;
+                            background-color: $blancazo;
                             padding: 1rem;
                             li{
                                 border-bottom: 1px solid $azul;

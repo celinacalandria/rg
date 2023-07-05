@@ -52,7 +52,8 @@
                         }
                     }
                     .dropdown-menu{
-                        background-color: $pastel;
+                        background: rgb(255,218,31);
+                        background: linear-gradient(180deg, rgba(255,218,31,1) 8%, rgba(255,255,255,1) 97%);
                         border: none;
                         a{
                             @include letraTextos;
@@ -60,6 +61,7 @@
                             &:hover{
                                 font-weight: 800;
                                 color: $azulado;
+                                background-color: $blancazo;
                             }
                         }
                     }
@@ -639,6 +641,8 @@
     .sectionCategorias{
         @include flex;
         flex-direction: column;
+        @include NMP;
+        padding-bottom: 2rem;
         div{
            padding: 1rem 0;
            width: 100%;

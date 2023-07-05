@@ -62,7 +62,8 @@
   color: #0E00A3;
 }
 #menu .container-fluid .navbar-collapse .nav-item .dropdown-menu {
-  background-color: #FFEE99;
+  background: rgb(255, 218, 31);
+  background: linear-gradient(180deg, rgb(255, 218, 31) 8%, rgb(255, 255, 255) 97%);
   border: none;
 }
 #menu .container-fluid .navbar-collapse .nav-item .dropdown-menu a {
@@ -73,6 +74,7 @@
 #menu .container-fluid .navbar-collapse .nav-item .dropdown-menu a:hover {
   font-weight: 800;
   color: #0E00A3;
+  background-color: #FFFFFF;
 }
 #menu .container-fluid .navbar-collapse .sectionBuscadorMobile form {
   display: flex;
@@ -705,6 +707,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 2rem;
 }
 .sectionCategorias div {
   padding: 1rem 0;
@@ -1156,7 +1161,8 @@
     text-align: center;
   }
   #menu .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
-    background-color: #EBEBEB;
+    background: none;
+    background-color: #FFFFFF;
     padding: 1rem;
   }
   #menu .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-menu li {
