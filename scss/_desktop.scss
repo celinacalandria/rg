@@ -176,14 +176,11 @@
         }
     }
 
-    /* PRODUCTOS VARIOS */ 
+    /* SECTION PRODUCTOS VARIOS */
     .sectionProductosVarios{
-        height: 7rem;
-        .carousel{
-            background-color: $azul;
-        }
+        padding-bottom: 0;
     }
-
+  
     /* UBICACION */
     .sectionUbicacion{
         display: none;
