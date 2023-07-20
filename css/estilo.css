@@ -475,7 +475,7 @@
   overflow: hidden;
   display: flex;
   list-style: none;
-  animation: scrolling 30s linear infinite;
+  animation: scrolling 40s linear infinite;
 }
 @keyframes scrolling {
   0% {
